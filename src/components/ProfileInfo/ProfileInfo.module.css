@@ -1,0 +1,90 @@
+.ProfileContainer {
+    text-align: center;
+    margin: auto;
+    max-width: 906px;
+    margin-top: 70px;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 2px 0px;
+  }
+  
+  .username {
+    font-size: 14px;
+    line-height: 18px;
+    color: #566370;
+    margin: 2px 0px;
+  }
+  
+  .description {
+    margin-top: 27px;
+  }
+  
+  .btnContainer {
+    margin-top: 16px;
+  }
+  
+  .btnContainer button {
+    width: 124px;
+    height: 40px;
+    border-radius: 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.004em;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .followBtn {
+    background-color: #292d7d;
+    color: #fff;
+    border: none;
+  }
+  
+  .messageBtn {
+    background-color: #fff;
+    color: #292d7d;
+    border: 1px solid #d1d9dd;
+  }
+  
+  .posted {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 906px;
+  }
+  
+  .posted button {
+    margin-top: 44px;
+    width: 453px;
+    height: 44px;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .inactive {
+    height: 2px;
+    width: 100%;
+    background: #f0f3f4;
+  }
+  
+  .active {
+    height: 2px;
+    width: 100%;
+    background: #292d7d;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .posted button {
+      /* width: 100%; */
+    }
+  }
+  
