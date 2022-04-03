@@ -1,0 +1,29 @@
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .imgContainer img {
+    padding-top: 16px;
+    width: 291px;
+    height: 291px;
+    border-radius: 16px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .imgContainer img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .imgContainer img {
+      width: 116px;
+      height: 116px;
+      border-radius: 8px;
+    }
+  }
+  
